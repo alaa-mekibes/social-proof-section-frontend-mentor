@@ -30,7 +30,7 @@ Users should be able to:
 
 - Solution URL: 
   
-- Live Site URL: https://alaa-mekibes.github.io/stats-preview-card-component-frontend-mentor
+- Live Site URL: https://alaa-mekibes.github.io/social-proof-section-frontend-mentor
 
 ## My process
 
