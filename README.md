@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/social-proof-section-SpXP3TzkZO
+- [Solution URL](https://www.frontendmentor.io/solutions/social-proof-section-SpXP3TzkZO)
   
-- Live Site URL: https://alaa-mekibes.github.io/social-proof-section-frontend-mentor
+- [Live Site URL](https://alaa-mekibes.github.io/social-proof-section-frontend-mentor)
 
 ## My process
 
