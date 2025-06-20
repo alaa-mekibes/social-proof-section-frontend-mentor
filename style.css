@@ -18,8 +18,8 @@
 body {
     font-family: "League Spartan", serif;
     background-color: var(--White);
-    background-image: url(images/bg-pattern-top-mobile.svg),
-    url(images/bg-pattern-bottom-mobile.svg);
+    background-image: url('images/bg-pattern-top-mobile.svg'),
+    url('images/bg-pattern-bottom-mobile.svg');
     background-position: top left, bottom right;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -62,7 +62,7 @@ body {
     padding: .5rem;
     border-radius: 5px
 }
-.review .star h2 {
+.star h2 {
     color: var(--Very-Dark-Magenta);
     font-weight: var(--FontW-700);
     font-size: var(--FontSize);
@@ -74,7 +74,7 @@ body {
     align-items: center;
     gap: 1rem;
 }
-.content .box {
+.box {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +84,7 @@ body {
     padding: 2.5rem 2rem;
     border-radius: 8px;
 }
-.content .box .info {
+.info {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -92,35 +92,35 @@ body {
     width: 100%;
     margin-bottom: 1rem
 }
-.content .box .info img {
+.info img {
     border-radius: 50%;
-    width: 40px
+    width: 2.5rem
 }
-.content .box .info span {
+.info span {
     display: block;
     text-transform: capitalize
 }
-.content .box .info span:first-child {
+.info span:first-child {
     color: var(--White);
     font-weight: var(--FontW-700);
     font-size: var(--FontSize);
-    margin-bottom: 3px
+    margin-bottom: 0.188rem
 }
-.content .box .info span:last-child {
+.info span:last-child {
     color: var(--Soft-Pink);
     font-weight: var(--FontW-400);
     font-size: 1.05rem;
 }
-.content .box q {
+.box q {
     color: var(--White);
     font-weight: var(--FontW-500);
     font-size: var(--FontSize);
     line-height: var(--Line-h)
 }
-.content .box q::before {
+.box q::before {
     content: '\201c' ' '
 }
-.content .box q::after {
+.box q::after {
     content: ' ' '\201d'
 }
 @media (min-width: 48rem) {
@@ -148,17 +148,17 @@ body {
     .review {
         width: 65%
     }
-    .review .star {
+    .star {
         flex-direction: row;
         justify-content: flex-start;
         gap: 2.5rem;
         width: 68%;
         padding: 1rem 2rem;
     }
-    .review .star:nth-child(2) {
+    .star:nth-child(2) {
         transform: translateX(3rem)
     }
-    .review .star:nth-child(3) {
+    .star:nth-child(3) {
         transform: translateX(6rem)
     }
     .content {
@@ -168,10 +168,10 @@ body {
         align-items: center;
         gap: 2rem;
     }
-    .content .box:nth-child(2) {
+    .box:nth-child(2) {
         transform: translateY(1rem)
     }
-    .content .box:nth-child(3) {
+    .box:nth-child(3) {
         transform: translateY(2rem)
     }
 }
